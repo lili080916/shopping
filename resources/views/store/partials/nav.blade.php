@@ -6,16 +6,16 @@
       </button>
   
       <div class="collapse navbar-collapse justify-content-end" id="navbarColor03">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-                <a class="nav-link" href="{{ route('cart.show') }}"><i class="fa fa-shopping-cart"></i></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Conócenos</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contacto</a>
-          </li>
+          <ul class="navbar-nav">
+            <li class="nav-item">
+                  <a class="nav-link" href="{{ route('cart.show') }}"><i class="fa fa-shopping-cart"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Conócenos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contacto</a>
+            </li>
           @include('store.partials.menu-user')
         </ul>
       </div>
