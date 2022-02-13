@@ -21,7 +21,9 @@
             <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="true"><i class="fa fa-user"></i> {{ Auth::user()->name }} <span class="caret"></span>
             </a>
             <ul class="dropdown-menu" role="menu">
-              <li><a class="logout" href="{{ route('admin.home') }}">Administración</a></li>
+              @if(Auth::user()->type == 'admin')
+                  <li><a class="logout" href="{{ route('admin.home') }}">Administración</a></li>
+              @endif
               <li><a class="logout" href="{{ route('logout') }}">Finalizar sesión</a></li>
             </ul>
             @else 
