@@ -1,0 +1,51 @@
+.navbar-text {
+    text-decoration: none;
+}
+
+.logout{
+    text-decoration: none;
+}
+
+body {
+    background: #f0f0f0;
+    
+}
+
+h1 {
+    color: orange;
+}
+
+h2, h3, h4, h5, h6 {
+    color: #444;
+}
+
+footer {
+    background: #222;
+    padding: 20px;
+}
+
+.page {
+    background: #fff;
+    border-radius: 1em;
+    margin: 1em;
+    min-height: 500px;
+    padding: 1em;
+}
+
+.row {
+    justify-content: center;
+}
+
+.panel a{
+    width: 100% !important;
+}
+
+.icon-home{
+    color: #666;
+    font-size: 60px;
+    margin: 20px;
+}
+
+.btn-home-admin{
+    font-size: 25px;
+}
